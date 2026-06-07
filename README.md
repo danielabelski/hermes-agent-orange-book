@@ -6,11 +6,13 @@
   <sub>Animated with <a href="https://github.com/alchaincyf/huashu-design">huashu-design</a> skill</sub>
 </p>
 
-# Hermes Agent: The Complete Guide
+# Hermes Agent 2.0: The Complete Guide
 
 > 橙皮书 (Orange Book) Series · by HuaShu (花叔)
 
-A practical guide to [Hermes Agent](https://github.com/NousResearch/hermes-agent), the open-source AI Agent framework by [Nous Research](https://hermes-agent.nousresearch.com/). The first Agent that ships with reins built in — and the reins keep growing.
+A hands-on guide to [Hermes Agent](https://github.com/NousResearch/hermes-agent), the open-source AI Agent framework by [Nous Research](https://hermes-agent.nousresearch.com/) — the first agent that ships with its "reins" built in, and the reins grow themselves.
+
+**This is a from-scratch rewrite.** The first edition was based on Hermes v0.7.0. Two months and nine releases later, the product had grown a whole new face — a native desktop app, a full browser dashboard, 23 messaging platforms — so the book is rebuilt around v0.16.0 ("The Surface Release").
 
 <p align="center">
   <img src="screenshots/page-cover.png" width="45%" />
@@ -21,24 +23,25 @@ A practical guide to [Hermes Agent](https://github.com/NousResearch/hermes-agent
 
 | Version | PDF |
 |---------|-----|
-| 中文版 (Chinese) | **[PDF Download](https://github.com/alchaincyf/hermes-agent-orange-book/raw/main/Hermes-Agent-从入门到精通-v260407.pdf)** |
-| English | **[PDF Download](https://github.com/alchaincyf/hermes-agent-orange-book/raw/main/Hermes-Agent-The-Complete-Guide-v260407.pdf)** |
+| 中文版 (Chinese) | **[PDF Download](https://github.com/alchaincyf/hermes-agent-orange-book/raw/main/Hermes-Agent橙皮书2.0-v260607.pdf)** |
+| English | **[PDF Download](https://github.com/alchaincyf/hermes-agent-orange-book/raw/main/Hermes-Agent-The-Complete-Guide-v260607.pdf)** |
 
 ## What This Book Covers
 
-[Hermes Agent](https://github.com/NousResearch/hermes-agent) is an open-source AI Agent framework released by Nous Research in February 2026. Unlike OpenClaw and Claude Code, it takes a fundamentally different approach: a built-in self-improving learning loop, three-layer memory system, and automatic Skill creation and evolution.
+[Hermes Agent](https://github.com/NousResearch/hermes-agent) is an open-source AI Agent framework from Nous Research. Unlike OpenClaw and Claude Code, it takes a fundamentally different approach: a built-in self-improving learning loop, a three-layer memory system, automatic Skill creation and evolution, and — new this cycle — a persistent multi-agent Kanban platform and an honest, OS-level security model.
 
-If you've read the "Harness Engineering" 橙皮书, Hermes is the first productization of those five components (instructions / constraints / feedback / memory / orchestration).
+If you've read the "Harness Engineering" 橙皮书, Hermes is the productization of those five components (instructions / constraints / feedback / memory / orchestration).
 
-17 chapters across 5 parts:
+**21 sections across 6 parts:**
 
-| Part | Content | Chapters |
+| Part | Content | Sections |
 |------|---------|----------|
-| Concepts | From Harness to Hermes | §01-02 |
-| Core Mechanisms | Learning loop, memory, Skills, tool ecosystem | §03-06 |
-| Hands-On Setup | Installation, first conversation, multi-platform, customization | §07-11 |
-| Real-World Scenarios | Knowledge assistant, dev automation, content creation, multi-Agent | §12-15 |
-| Deep Thinking | Three-way comparison, boundaries of self-improving Agents | §16-17 |
+| 1. What It Is | Meet Hermes, one brain many faces, why Nous built it | §01-03 |
+| 2. The Reins Grow Themselves | Three engines of self-improvement, Curator, what not to learn | §04-06 |
+| 3. How It Remembers You | Three-layer memory, session search, Skills, orchestrating agents | §07-10 |
+| 4. Connecting Everything | 64 tools, MCP, 23 platforms, three surfaces | §11-14 |
+| 5. Multi-Agent & Orchestration | From delegate_task to the Kanban platform, collaboration patterns | §15-17 |
+| 6. Deployment, Security & Boundaries | Deploy, the OS boundary, Promptware defense, how far it can go | §18-21 |
 
 <p align="center">
   <img src="screenshots/page-ch01.png" width="45%" />
@@ -48,8 +51,8 @@ If you've read the "Harness Engineering" 橙皮书, Hermes is the first producti
 ## Who Is This For
 
 - Developers who've used Claude Code / OpenClaw / Cursor and want to understand Hermes
-- AI enthusiasts who want to build a personal AI Agent
-- Anyone interested in seeing Harness Engineering concepts turned into a real product
+- AI power users who don't live in the command line — Hermes now ships a desktop app, so this is for you too
+- Anyone interested in seeing Harness Engineering concepts turned into a real, self-improving product
 
 ## 橙皮书 (Orange Book) Series
 
@@ -61,19 +64,25 @@ All books free to download: **[huasheng.ai/orange-books](https://www.huasheng.ai
 
 **HuaShu (花叔)** · AI Native Coder · Indie Developer
 
-An AI content creator with 300K+ followers across platforms. Built all products (including an App Store #1 Paid iOS app) entirely with AI tools — never wrote a line of code manually.
+An AI content creator with 300K+ followers across platforms. Built all products (including an App Store #1 Paid iOS app) entirely with AI tools — never wrote a line of code manually. Open-sourced Nuwa.skill, huashu-design, and more.
 
 - X/Twitter: [@AlchainHust](https://x.com/AlchainHust)
 - YouTube: [@Alchain](https://www.youtube.com/@Alchain)
-- Bilibili: [AI进化论-花生](https://space.bilibili.com/14097567/)
+- Bilibili: [花叔](https://space.bilibili.com/14097567/)
 - WeChat Official Account: 花叔
 - Website: [huasheng.ai](https://www.huasheng.ai/)
 
 ## Version
 
+- **v260607** — Second edition (2.0), a from-scratch rewrite based on Hermes Agent v0.16.0 ("The Surface Release")
 - **v260408** — First edition, based on Hermes Agent v0.7.0
-- AI tools evolve rapidly — refer to [official docs](https://hermes-agent.nousresearch.com/docs/) for the latest
+- AI tools evolve rapidly — refer to the [official docs](https://hermes-agent.nousresearch.com/docs/) for the latest
+
+## Changes in 2.0
+
+- **Full rewrite, not a patch.** Restructured from 17 chapters / 5 parts into 21 sections / 6 parts, rebuilt around Hermes v0.16.0. New material on the self-improvement loop (Curator), the multi-agent Kanban platform, and the security model — areas the first edition barely touched.
+- **License changed to MIT.** The first edition used CC BY-NC-SA 4.0. Starting with 2.0, this book is released under the [MIT License](LICENSE) — you're free to use, adapt, and redistribute it, including commercially. Use it however helps you.
 
 ## License
 
-[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — free to share and adapt with attribution, non-commercial only.
+[MIT License](LICENSE) — free to use, copy, modify, and distribute, including for commercial use. Attribution appreciated but not required.
