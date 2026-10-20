@@ -14,6 +14,8 @@ A hands-on guide to [Hermes Agent](https://github.com/NousResearch/hermes-agent)
 
 **This is a from-scratch rewrite.** The first edition was based on Hermes v0.7.0. Two months and nine releases later, the product had grown a whole new face — a native desktop app, a full browser dashboard, 23 messaging platforms — so the book is rebuilt around v0.16.0 ("The Surface Release").
 
+**The Chinese edition is now at its third edition (v261020)**, updated for Hermes Agent v0.22.2 ("The Threshold Release") with a new hands-on Part 2 and 40 real-device screenshots. This English edition is still the second edition (v260607).
+
 <p align="center">
   <img src="screenshots/page-cover.png" width="45%" />
   <img src="screenshots/page-toc.png" width="45%" />
@@ -23,7 +25,7 @@ A hands-on guide to [Hermes Agent](https://github.com/NousResearch/hermes-agent)
 
 | Version | PDF |
 |---------|-----|
-| 中文版 (Chinese) | **[PDF Download](https://github.com/alchaincyf/hermes-agent-orange-book/raw/main/Hermes-Agent橙皮书2.0-v260607.pdf)** |
+| 中文版 (Chinese, 3rd ed. v261020) | **[PDF Download](https://github.com/alchaincyf/hermes-agent-orange-book/raw/main/Hermes-Agent橙皮书2.0-v261020.pdf)** |
 | English | **[PDF Download](https://github.com/alchaincyf/hermes-agent-orange-book/raw/main/Hermes-Agent-The-Complete-Guide-v260607.pdf)** |
 
 ## Errata
@@ -39,7 +41,7 @@ In other words, your usage trajectories stay on your own machine; there is no ch
 
 Accordingly, the "data flywheel" argument at the end of §03 doesn't hold either. Of the motives the book attributes to Nous, "monetizing through Portal" and "poaching OpenClaw's users" still stand; "users feeding it training data" should be struck.
 
-The PDFs are build artifacts and have not been regenerated yet; this erratum stands here until the next revision corrects the body text. For product facts, trust the [official docs](https://hermes-agent.nousresearch.com/docs/).
+The Chinese edition v261020 corrects the §03 body text (motive one now reads "it is also Nous's own research infrastructure"). The English edition v260607 has not been regenerated yet; this erratum stands for it. For product facts, trust the [official docs](https://hermes-agent.nousresearch.com/docs/).
 
 ## What This Book Covers
 
@@ -89,6 +91,7 @@ An AI content creator with 300K+ followers across platforms. Built all products 
 
 ## Version
 
+- **v261020** — Third edition (Chinese only), based on Hermes Agent v0.22.2: a new hands-on Part 2, 40 screenshots, chapter-by-chapter updates, and the §03 erratum corrected
 - **v260607** — Second edition (2.0), a from-scratch rewrite based on Hermes Agent v0.16.0 ("The Surface Release")
 - **v260408** — First edition, based on Hermes Agent v0.7.0
 - AI tools evolve rapidly — refer to the [official docs](https://hermes-agent.nousresearch.com/docs/) for the latest

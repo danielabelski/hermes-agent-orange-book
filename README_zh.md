@@ -12,7 +12,9 @@
 
 [Hermes Agent](https://github.com/NousResearch/hermes-agent) 是 [Nous Research](https://hermes-agent.nousresearch.com/) 开源的 AI Agent 框架——第一个出厂就带缰绳、而且缰绳会自己长大的 Agent。
 
-**这一版是推倒重写。** 第一版基于 Hermes v0.7.0。两个月、九个版本之后，它长出了原生桌面 App、浏览器全套管理面板、23 个消息平台——整个产品换了一张脸，所以这本书围绕 v0.16.0（「The Surface Release」）重新拆了一遍。
+**中文版已更新到第三版（v261020）**，基于 Hermes Agent v0.22.2（「The Threshold Release」）：在 6 月第二版的骨架上新增 Part 2 上手篇五节（安装、第一次对话、教它技能、定时任务与看板、浏览器面板），配 40 张隔离环境真机实测截图，并逐章把过时的数字和默认值改到 v0.22.2。
+
+第二版是推倒重写：第一版基于 Hermes v0.7.0，两个月、九个版本之后它长出了原生桌面 App 和浏览器管理面板，所以围绕 v0.16.0（「The Surface Release」）重新拆了一遍。英文版目前仍是第二版。
 
 <p align="center">
   <img src="screenshots/page-cover.png" width="45%" />
@@ -23,8 +25,8 @@
 
 | 版本 | PDF |
 |------|-----|
-| 中文版 | **[PDF 下载](https://github.com/alchaincyf/hermes-agent-orange-book/raw/main/Hermes-Agent橙皮书2.0-v260607.pdf)** |
-| English | **[PDF Download](https://github.com/alchaincyf/hermes-agent-orange-book/raw/main/Hermes-Agent-The-Complete-Guide-v260607.pdf)** |
+| 中文版（第三版 v261020） | **[PDF 下载](https://github.com/alchaincyf/hermes-agent-orange-book/raw/main/Hermes-Agent橙皮书2.0-v261020.pdf)** |
+| English（第二版 v260607） | **[PDF Download](https://github.com/alchaincyf/hermes-agent-orange-book/raw/main/Hermes-Agent-The-Complete-Guide-v260607.pdf)** |
 
 ## 勘误
 
@@ -39,7 +41,7 @@
 
 连带地，§03 结尾「数据飞轮」那部分论证也不成立——Nous 做 Hermes 的动机里，「Portal 商业化」和「抢 OpenClaw 的存量用户」两条依然成立，「用户给它喂训练数据」这条应当删去。
 
-PDF 是构建产物，暂未重新生成，先在这里记下勘误，下一版修订时改正正文。判断产品事实，请以[官方文档](https://hermes-agent.nousresearch.com/docs/)为准。
+中文版 v261020 已按官方文档改正 §03 正文（「动机一」改为「它也是 Nous 自己的研究设施」），勘误也写进了给微信读书读者的话；英文版 v260607 还没改，以这里的勘误为准。判断产品事实，请以[官方文档](https://hermes-agent.nousresearch.com/docs/)为准。
 
 ## 这本书讲什么
 
@@ -47,16 +49,17 @@ PDF 是构建产物，暂未重新生成，先在这里记下勘误，下一版�
 
 如果你读过《Harness Engineering》橙皮书，Hermes 是那本书讲的五个组件（指令/约束/反馈/记忆/编排）的产品化实现。
 
-**全书 21 节，分 6 个部分：**
+**中文版第三版共 26 节，分 7 个部分：**
 
 | Part | 内容 | 章节 |
 |------|------|------|
 | 1. 这是什么 | 先认识 Hermes、一个大脑多张脸、Nous 为什么做 | §01-03 |
-| 2. 缰绳会自己长 | 自改进三引擎、Curator、最该学的是「不要学」 | §04-06 |
-| 3. 它怎么记住你 | 三层记忆、会话搜索、Skill、指挥一群 Agent | §07-10 |
-| 4. 连接一切 | 64 个工具、MCP、23 个平台、三种接入面 | §11-14 |
-| 5. 多 Agent 与编排 | 从 delegate_task 到 Kanban 平台、八种协作模式 | §15-17 |
-| 6. 部署、安全与边界 | 部署、唯一边界是操作系统、Promptware 防御、能走多远 | §18-21 |
+| 2. 跟着做（第三版新增） | 安装与向导、第一次对话与记忆、教它技能与 Curator、定时任务与看板、浏览器面板 | §04-08 |
+| 3. 缰绳会自己长 | 自改进三引擎、Curator、最该学的是「不要学」 | §09-11 |
+| 4. 它怎么记住你 | 三层记忆、会话搜索、Skill、指挥一群 Agent | §12-15 |
+| 5. 连接一切 | 工具、MCP、二十多个平台、三种接入面 | §16-19 |
+| 6. 多 Agent 与编排 | 从 delegate_task 到 Kanban 平台、八种协作模式 | §20-22 |
+| 7. 部署、安全与边界 | 部署、唯一边界是操作系统、Promptware 防御、能走多远 | §23-26 |
 
 <p align="center">
   <img src="screenshots/page-ch01.png" width="45%" />
@@ -90,6 +93,7 @@ PDF 是构建产物，暂未重新生成，先在这里记下勘误，下一版�
 
 ## 版本
 
+- **v261020** — 第三版（中文），基于 Hermes Agent v0.22.2（「The Threshold Release」）：新增上手篇五节、40 张实测截图，逐章更新，改正 §03 勘误
 - **v260607** — 第二版（2.0），基于 Hermes Agent v0.16.0（「The Surface Release」）推倒重写
 - **v260408** — 初版，基于 Hermes Agent v0.7.0
 - AI 工具迭代迅速，部分内容可能随版本更新变化，请以官方文档为准
@@ -98,6 +102,10 @@ PDF 是构建产物，暂未重新生成，先在这里记下勘误，下一版�
 
 - **推倒重写，不是打补丁。** 从初版的 17 章 / 5 部分，重构为 21 节 / 6 部分，围绕 Hermes v0.16.0 重新解构。新增了自改进闭环（Curator）、多 Agent 看板平台 Kanban、安全模型这些初版几乎没碰的内容。
 - **许可证改为 MIT。** 初版用的是 CC BY-NC-SA 4.0。从 2.0 起，本书改用 [MIT 许可证](LICENSE)——你可以自由使用、改编、再分发，包括商用。怎么用得上就怎么用。
+
+## 关注花叔
+
+<p align="center"><img src="https://raw.githubusercontent.com/alchaincyf/alchaincyf/main/assets/follow.svg" width="720" alt="关注花叔：公众号「花叔」、B站「花叔v」、小红书「花叔」" /></p>
 
 ## 📚 在线阅读（WorkBuddy）
 
